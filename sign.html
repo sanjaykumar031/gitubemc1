@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sing-up form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="center-div">
+        <!-- This is outer-box for wrapping -->
+        <div class="outer-box">
+            <form action="#">
+                <div class="elements">
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" required>
+                </div>
+
+                <div class="elements">
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname"   placeholder="Enter the name.." required>
+
+                </div>
+                <div class="elements">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="elements">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" required>
+                </div>
+                <section class="radio-section">
+                    <p>Gender:</p>
+                    <div class="radio-item">
+                    <input type="radio" name="gender" id="male" value="male" required>
+                    <label for="male">Male</label></div>
+                    <div class="radio-item">
+                    <input type="radio" name="gender" id="female" value="female" required>
+                    <label for="female">Female</label>
+                    </div>
+                </section>
+                <button onclick="">Sign-up</button>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
